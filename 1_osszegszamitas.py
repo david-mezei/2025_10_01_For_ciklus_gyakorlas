@@ -5,7 +5,7 @@ Kérj be egy egész számot (pl. 10; 13;  20…), és számítsd ki az 1-től a 
 szam = int(input("Kérek egy egész számot, és kiszámolom a 1-től a számok összegét: "))
 szamolo = 0
 
-for i in range(1, szam+1):
+for i in range(1, szam):
     szamolo += i # alapszam = alapszam + 1
     # print(szamolo)
     print(i)
